@@ -1,0 +1,30 @@
+#spil {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.col1 {
+  height: 100vh;
+  background-image: url("../images/camels.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col2 {
+  height: 100vh;
+  background-image: url("../images/monastery.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col3 {
+  height: 100vh;
+  background-image: url("../images/desert.jpg");
+  background-size: cover;
+  background-position: center;
+}
