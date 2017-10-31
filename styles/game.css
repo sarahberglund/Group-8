@@ -28,3 +28,23 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+
+.form-section {
+  height: 100vh;
+  background-color: darkblue;
+}
+
+#datepicker {
+  width: 200px;
+  margin: auto;
+  display: inline;
+}
+
+form {
+  background-color: orange;
+  margin: auto;
+  padding: 50px;
+  width: 30%;
+  border-radius: 50px;
+  border: solid 5px white;
+}
