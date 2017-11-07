@@ -1,0 +1,71 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 15%;
+	float: left;
+}
+#logo {
+	opacity: 0.5;
+	width: 100%;
+	margin: 4%;
+}
+#intro-section {
+	background-image: url(../images/intro-background.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	height: 100vh;
+}
+h1 {
+	clear: both;
+	color: hsla(0,0%,100%,0.50);
+	font-size: 6em;
+	font-family: 'Macondo Swash Caps', cursive;
+	text-align: center;
+}
+h2 {
+	color: #21203B;
+	padding: 2% 0 2% 2%;
+	font-family: 'Macondo Swash Caps', cursive;
+	font-size: 4em;
+	}
+h3 {
+	color: hsla(0,0%,100%,0.50);
+	font-size: 3em;
+	font-family: 'Macondo Swash Caps', cursive;
+	text-align: center;
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+	color: #21203B;
+	font-size: 1.8em;
+	margin-left: 2%;
+}
+#about p {
+	width: 50%;
+	float: left;
+}
+#about img {
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+#gallery {
+	clear: both;
+	background: #8C6C3C;
+}
+#gallery p {
+	padding-bottom: 2%;
+}
+footer {
+	background: #21203B;
+	clear: both;
+	padding: 1%;
+}
+footer p {
+	color: #8C6C3C;
+}

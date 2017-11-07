@@ -1,64 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>PHP training template</title>
-    <link rel="stylesheet" href="styles/game.css">
-      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<title>TaBast's Tomb | Uncover History</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+	<div id="wrapper">
+		<header>
+			<img id="logo" src="images/logo-white.svg" alt="The TaBast logo">
 
-<div class="container-fluid">
-  <section class="row">
+		</header>
 
-    <div class="col-4 col1">
-      <audio id="moan">
-        <source src="sounds/moan.wav" type="audio/wav">
-      </audio>
-    </div>
-    <div class="col-4 col2">
-      <audio id="war-horn">
-        <source src="sounds/war-horn.wav" type="audio/wav">
-      </audio>
-    </div>
-    <div class="col-4 col3">
-      <audio id="exhaust">
-        <source src="sounds/exhaust.wav" type="audio/wav">
-      </audio>
-    </div>
+		<main>
+			<section id="intro-section">
+				<h1>Coming soon</h1>
+				<h3> ...days to go</h3>
+			</section>
+			<section id="about">
+				<h2>TaBast's Tomb</h2>
+				<p>Travel back in time and embrace your inner adventurer before time run's out and you're locked in the tomb forever. Can you and your fellow explorer's solve the riddle and make it out alive...?</p>
+				<img src="images/eye.png" alt="an image of an eye amulet">
+			</section>
+			<section id="gallery">
+				<h2>Share your adventure here:</h2>
+				<p>See what other's have been up to and how long it took for them to escape from TaBast's tomb.</p>
+			</section>
+		</main>
+		<footer>
+			<p>Antikmuseet</p>
+			<p>Contact: 8716 1106</p>
+		</footer>
+	</div>
+	<!-- end of wrapper-->
 
-  </section>
-
-  <section class="row align-items-center form-section">
-    <div class="col-10 offset-1">
-      <form class="text-center">
-        <h1 class="mb-3">Pick a date</h1>
-        <p>Date: <input class="form-control" type="text" id="datepicker"></p>
-      </form>
-    </div>
-  </section>
-</div>
-
-
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="javascript/scripts.js"></script>
-<script>
-$( function() {
-  $( "#datepicker" ).datepicker();
-} );
-</script>
 </body>
 
 </html>
